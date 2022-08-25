@@ -1,0 +1,103 @@
+.AppMenu {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("file:///C:/Users/anusriv3/OneDrive%20-%20Cisco/Documents/2119757.webp");
+  background-size: cover;
+  height: 100vh;
+}
+
+.AppQuiz {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("file:///C:/Users/anusriv3/OneDrive%20-%20Cisco/Documents/quiz-seamless-pattern-question-marks-600w-1166488216.webp");
+  background-size: cover;
+  height: 100vh;
+}
+
+.AppEndScreen {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("file:///C:/Users/anusriv3/OneDrive%20-%20Cisco/Documents/the-fool-and-final-quiz-quiz-inc-2-320.webp");
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input, button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.Menu h1{
+  background-color: lightseagreen;
+}
+
+.btnSelected{
+  background-color: black;
+  color: white;
+}
+
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: white;
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgb(107, 93, 93);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+#nextQuestion {
+  width: 200px;
+}
+
+h3 {
+  color: #ffffff;
+
+}
