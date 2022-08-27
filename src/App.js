@@ -11,16 +11,16 @@ function App() {
   const [score, setScore] = useState(0);
 
   const styleBG = (style) =>{
-switch (style){
-case 'menu': 
-return 'AppMenu'
-case 'playing':
-  return 'AppQuiz'
-  case 'finished':
-    return 'AppEndScreen'
-    default:
-      return 'AppMenu'
-}
+    switch (style){
+      case 'menu': 
+        return 'AppMenu'
+      case 'playing':
+        return 'AppQuiz'
+      case 'finished':
+        return 'AppEndScreen'
+      default:
+        return 'AppMenu'
+    }
   }
 
   return (
